@@ -1,5 +1,5 @@
 {
-    "name": "highco/hidden-entity-type-bundle",
+    "name": "highco/hidden-entity-bundle",
     "type": "symfony-bundle",
     "description": "Hidden field for Symfony2 entities",
     "keywords":    ["higco", "entity", "type", "bundle"],
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Highco\\HiddenEntityTypeBundle\\": ""
+            "Highco\\HiddenEntityBundle\\": ""
         }
     },
     "extra": {
