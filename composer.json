@@ -1,0 +1,31 @@
+{
+    "name": "highco/hidden-entity-type-bundle",
+    "type": "symfony-bundle",
+    "description": "Hidden field for Symfony2 entities",
+    "keywords":    ["higco", "entity", "type", "bundle"],
+    "homepage":    "http://github.com/BLEUROY-HIGHCO/hidden-entity-bundle",
+    "authors": [
+        {
+            "name": "Highco Team",
+            "homepage": "https://www.highco.com"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "http://github.com/BLEUROY-HIGHCO/hidden-entity-bundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.2",
+        "symfony/framework-bundle": "~3.0|~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Highco\\HiddenEntityTypeBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

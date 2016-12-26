@@ -1,0 +1,6 @@
+services:
+    hidden_entity_type:
+        class: Highco\HiddenEntityBundle\Type\HiddenEntityType
+        arguments: ["@doctrine.orm.entity_manager"]
+        tags:
+            - { name: form.type }
